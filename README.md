@@ -17,7 +17,7 @@ Konversi Suhu Celsius
 ```mermaid
 flowchart TD
   start@{shape: circle, label: "start"}
-  end@{shape: dbl-circ, label: "end"}
+  stop@{shape: dbl-circ, label: "end"}
   unit@{shape: lean-r, label: "celsius"}
   type@{shape: lean-r, label: "tipe"}
   f@{shape: diamond, label: "tipe == 'f'"}
@@ -33,11 +33,11 @@ flowchart TD
   f--false-->k
   
   k--true-->k_calc
-  k--false-->end
+  k--false-->stop
 
   f_calc-->out
   k_calc-->out
-  out-->end
+  out-->stop
 ```
 
 ## Pseudocode

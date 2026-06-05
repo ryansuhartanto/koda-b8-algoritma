@@ -15,15 +15,15 @@ Cek bilangan ganjil/genap
 ```mermaid
 flowchart TD
   start@{shape: circle, label: "start"}
-  end@{shape: dbl-circ, label: "end"}
+  stop@{shape: dbl-circ, label: "end"}
   input@{shape: lean-r, label: bilangan}
   calc@{shape: diamond, label: bilangan % 2 == 0}
   even@{shape: lean-r, label:  '"genap"'}
   odd@{shape: lean-r, label:  '"ganjil"'}
 
   start-->input-->calc
-  calc--true-->even-->end
-  calc--false-->odd-->end
+  calc--true-->even-->stop
+  calc--false-->odd-->stop
 ```
 
 ## Pseudocode
