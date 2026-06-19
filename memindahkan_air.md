@@ -5,7 +5,10 @@ Memindahakan isi di dalam gelas
 ## Deskripsi
 
 1. Mulai
-2. Tuangkan kopi (B) kedalam gelas kosong (C)
-3. Tuangkan teh (A) kedalam gelas kopi (B) yang sudah kosong
-4. Tuangkan gelas yang di berisi kopi (C) kedalam gelas yang sekarang kosong (A)
-5. Selesai
+2. Ada gelas A berisi teh dan gelas B berisi kopi
+3. Siapkan gelas C yang kosong
+4. Tuangkan gelas B yang berisi kopi kedalam gelas C yang kosong
+5. Tuangkan gelas A yang berisi teh kedalam gelas B yang sudah kosong
+6. Tuangkan gelas C yang di berisi kopi kedalam gelas A yang sekarang kosong
+7. Sekarang gelas A berisi kopi dan kelas B berisi teh
+8. Selesai
